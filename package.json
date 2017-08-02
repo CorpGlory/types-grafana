@@ -1,0 +1,13 @@
+{
+  "name": "@types/grafana",
+  "version": "4.1.1",
+  "description": "TypeScript definitions for Grafana plugins",
+  "main": "",
+  "keywords": [
+    "Grafana",
+    "types",
+    "plugins"
+  ],
+  "author": "Alexey Velikiy",
+  "license": "MIT"
+}
