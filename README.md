@@ -6,7 +6,7 @@ Tested with v4.1.1
 
 ## Roadmap
 
-* Steal everything useful from https://github.com/grafana/typescript-template-datasource 
+* Steal everything useful from [Grafana SDK Mocks](https://github.com/grafana/grafana-sdk-mocks)
 * Make [@types](https://github.com/DefinitelyTyped/DefinitelyTyped) project
 * Define real types insted of `any`
 * Make versions tags according to Grafana versions
