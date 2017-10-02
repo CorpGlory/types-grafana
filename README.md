@@ -11,3 +11,8 @@ Tested with v4.1.1
 * Define real types insted of `any`
 * Make versions tags according to Grafana versions
 * Contribute better types definitions to [Grafana](https://github.com/grafana/grafana)
+
+
+# See also
+
+* [TypeScript extension](https://github.com/CorpGlory/grafana-plugin-template-webpack-typescript)
