@@ -15,4 +15,4 @@ Tested with v4.1.1
 
 # See also
 
-* [TypeScript extension](https://github.com/CorpGlory/grafana-plugin-template-webpack-typescript)
+* [Grafana plugin TypeScript template project](https://github.com/CorpGlory/grafana-plugin-template-webpack-typescript)
