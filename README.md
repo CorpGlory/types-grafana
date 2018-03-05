@@ -2,7 +2,7 @@
 
 Unofficial typings for TypeScript for developing plugins for Grafana. 
 
-Tested with v4.1.1
+Tested with Grafana versions 4.6.3 and 5.0.0
 
 ## Roadmap
 

@@ -1,5 +1,5 @@
 /// 
-import { Emitter } from 'app/core/core';
+import { Emitter } from '../../core/core';
 export declare class PanelCtrl {
     panel: any;
     error: any;
