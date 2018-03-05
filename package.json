@@ -1,6 +1,6 @@
 {
   "name": "@types/grafana",
-  "version": "4.1.1",
+  "version": "4.6.x",
   "description": "TypeScript definitions for Grafana plugins",
   "main": "",
   "keywords": [
