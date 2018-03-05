@@ -1,5 +1,5 @@
-/// 
-/// 
+///
+///
 import "./directives/annotation_tooltip";
 import "./directives/dash_class";
 import "./directives/confirm_click";
@@ -38,9 +38,17 @@ import 'app/core/routes/routes';
 import './filters/filters';
 import coreModule from './core_module';
 import appEvents from './app_events';
-import colors from './utils/colors';
+import {
+  default as colors,
+  OK_COLOR,
+  ALERTING_COLOR,
+  NO_DATA_COLOR,
+  DEFAULT_ANNOTATION_COLOR,
+  REGION_FILL_ALPHA
+} from './utils/colors';
 import { assignModelProperties } from './utils/model_utils';
 import { contextSrv } from './services/context_srv';
 import { KeybindingSrv } from './services/keybindingSrv';
 import { helpModal } from './components/help/help';
-export { arrayJoin, coreModule, grafanaAppDirective, sideMenuDirective, navbarDirective, searchDirective, colorPicker, liveSrv, layoutSelector, switchDirective, infoPopover, Emitter, appEvents, dashboardSelector, queryPartEditorDirective, WizardFlow, colors, assignModelProperties, contextSrv, KeybindingSrv, helpModal };
+import { updateLegendValues } from './time_series2';
+export { arrayJoin, coreModule, grafanaAppDirective, sideMenuDirective, navbarDirective, searchDirective, colorPicker, liveSrv, layoutSelector, switchDirective, infoPopover, Emitter, appEvents, dashboardSelector, queryPartEditorDirective, WizardFlow, colors, assignModelProperties, contextSrv, KeybindingSrv, helpModal, updateLegendValues };
