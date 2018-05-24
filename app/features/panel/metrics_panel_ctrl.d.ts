@@ -31,5 +31,10 @@ declare class MetricsPanelCtrl extends PanelCtrl {
     handleQueryResult(result: any): void;
     handleDataStream(stream: any): void;
     setDatasource(datasource: any): void;
+    getAdditionalMenuItems(): any[];
+    explore(): void;
+    addQuery(target: any): void;
+    removeQuery(target: any): void;
+    moveQuery(target: any, direction: number): void;
 }
 export { MetricsPanelCtrl };
