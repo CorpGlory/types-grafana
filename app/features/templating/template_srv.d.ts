@@ -1,5 +1,4 @@
-///
-import { QueryVariable } from "./query_variable"
+import { QueryVariable } from './query_variable'
 
 export declare class TemplateSrv {
     builtIns: any;

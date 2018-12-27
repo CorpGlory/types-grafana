@@ -8,4 +8,5 @@ import { CustomVariable } from './custom_variable';
 import { ConstantVariable } from './constant_variable';
 import { AdhocVariable } from './adhoc_variable';
 import { TemplateSrv } from './template_srv';
+
 export { VariableSrv, IntervalVariable, QueryVariable, DatasourceVariable, CustomVariable, ConstantVariable, AdhocVariable, TemplateSrv };
