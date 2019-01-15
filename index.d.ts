@@ -8,6 +8,16 @@ import 'angular-sanitize';
 import 'angular-dragdrop';
 import 'angular-bindonce';
 import 'angular-ui';
+
+declare global {
+  interface Window {
+    grafanaBootData: any,
+    System: {
+      import: Function
+    }
+  }
+}
+
 export declare class GrafanaApp {
     registerFunctions: any;
     ngModuleDependencies: any[];
