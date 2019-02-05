@@ -13,7 +13,6 @@ export declare class PanelCtrl {
     $injector: any;
     $timeout: any;
     fullscreen: boolean;
-    loading: boolean;
     inspector: any;
     editModeInitiated: boolean;
     editorHelpIndex: number;
