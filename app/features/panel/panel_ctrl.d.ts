@@ -20,6 +20,7 @@ export declare class PanelCtrl {
     height: any;
     containerHeight: any;
     events: Emitter;
+    loading: boolean;
     timing: any;
     constructor($scope: any, $injector: any);
     init(): void;
