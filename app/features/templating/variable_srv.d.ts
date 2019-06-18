@@ -15,7 +15,7 @@ export declare class VariableSrv {
     createVariableFromModel(model: any): any;
     addVariable(model: any): any;
     updateOptions(variable: any): any;
-    variableUpdated(variable: any): any;
+    variableUpdated(variable: any, emitChangeEvents?): any;
     selectOptionsForCurrentValue(variable: any): any;
     validateVariableSelectionState(variable: any): any;
     setOptionFromUrl(variable: any, urlValue: any): any;
