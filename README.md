@@ -16,3 +16,7 @@ Tested with Grafana versions 4.6.3 and 5.0.0
 # See also
 
 * [Grafana plugin TypeScript template project](https://github.com/CorpGlory/grafana-plugin-template-webpack-typescript)
+
+
+## About CorpGlory Inc.
+The project developed by [CorpGlory Inc.](https://corpglory.com/), a company which provides high quality software development, data visualization, Grafana and monitoring consulting.
