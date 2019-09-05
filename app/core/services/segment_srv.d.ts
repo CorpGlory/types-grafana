@@ -23,14 +23,14 @@ export declare class UiSegmentSrv {
 
 export declare class MetricSegment {
   value: string;
-  html: string;
-  type: string;
-  expandable: boolean;
-  text: string;
-  cssClass: string;
-  fake: boolean;
-  custom: boolean;
-  selectMode: boolean;
+  html?: string;
+  type?: string;
+  expandable?: boolean;
+  text?: string;
+  cssClass?: string;
+  fake?: boolean;
+  custom?: boolean;
+  selectMode?: boolean;
 
   constructor(options: string | MetricSegment);
 }
