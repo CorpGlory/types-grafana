@@ -1,4 +1,4 @@
-export enum PasswordFieldEnum {Password = 'password', BasicAuthPassword = 'basicAuthPassword'}
+export enum PasswordFieldEnum { Password = 'password', BasicAuthPassword = 'basicAuthPassword' }
 export type Ctrl = {
   current: {
     secureJsonFields: {
