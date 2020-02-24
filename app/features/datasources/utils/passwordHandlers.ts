@@ -12,4 +12,4 @@ export type Ctrl = {
   };
 };
 export declare function createResetHandler(ctrl: Ctrl, field: PasswordFieldEnum): (event: any) => void;
-export const createChangeHandler = (ctrl: any, field: PasswordFieldEnum) => (event: any) => {};
+export declare function createChangeHandler(ctrl: any, field: PasswordFieldEnum): (event: any) => void;
