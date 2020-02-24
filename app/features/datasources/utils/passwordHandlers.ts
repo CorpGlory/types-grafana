@@ -11,5 +11,5 @@ export type Ctrl = {
     basicAuthPassword?: string;
   };
 };
-export const createResetHandler = (ctrl: Ctrl, field: PasswordFieldEnum) => (event: any) => {};
+export declare function createResetHandler(ctrl: Ctrl, field: PasswordFieldEnum): (event: any) => void;
 export const createChangeHandler = (ctrl: any, field: PasswordFieldEnum) => (event: any) => {};
