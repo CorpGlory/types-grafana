@@ -36,5 +36,4 @@ declare class TimeSeries {
 
 declare function updateLegendValues(data: TimeSeries[], panel);
 
-
 export { TimeSeries as default, updateLegendValues };

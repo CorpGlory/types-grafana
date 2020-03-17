@@ -1,69 +1,69 @@
-/// 
+///
 
-declare var System: any;
+declare let System: any;
 
 // dummy modules
 declare module 'app/core/config' {
-  var config: any;
+  let config: any;
   export default config;
 }
 
 declare module 'lodash' {
-  var lodash: any;
+  let lodash: any;
   export default lodash;
 }
 
 declare module 'moment' {
-  var moment: any;
+  let moment: any;
   export default moment;
 }
 
 declare module 'angular' {
-  var angular: any;
+  let angular: any;
   export default angular;
 }
 
 declare module 'jquery' {
-  var jquery: any;
+  let jquery: any;
   export default jquery;
 }
 
 declare module 'app/core/utils/kbn' {
-  var kbn: any;
+  let kbn: any;
   export default kbn;
 }
 
 declare module 'app/core/store' {
-  var store: any;
+  let store: any;
   export default store;
 }
 
 declare module 'tether' {
-  var config: any;
+  let config: any;
   export default config;
 }
 
 declare module 'tether-drop' {
-  var config: any;
+  let config: any;
   export default config;
 }
 
 declare module 'eventemitter3' {
-  var config: any;
+  let config: any;
   export default config;
 }
 
 declare module 'virtual-scroll' {
-  var config: any;
+  let config: any;
   export default config;
 }
 
 declare module 'mousetrap' {
-  var config: any;
+  let config: any;
   export default config;
 }
 
 declare module 'remarkable' {
-  var config: any;
+  let config: any;
   export default config;
 }

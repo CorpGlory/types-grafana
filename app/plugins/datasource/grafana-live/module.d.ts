@@ -1,7 +1,7 @@
-/// 
+///
 import { GrafanaStreamDS } from './datasource';
 import { QueryCtrl } from 'app/plugins/sdk';
 declare class GrafanaQueryCtrl extends QueryCtrl {
-    static templateUrl: string;
+  static templateUrl: string;
 }
 export { GrafanaStreamDS as Datasource, GrafanaQueryCtrl as QueryCtrl };

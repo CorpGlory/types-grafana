@@ -1,4 +1,4 @@
-/// 
+///
 import 'jquery.flot';
 import 'jquery.flot.selection';
 import 'jquery.flot.time';

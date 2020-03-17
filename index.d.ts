@@ -1,4 +1,4 @@
-/// 
+///
 import 'bootstrap';
 import 'vendor/filesaver';
 import 'lodash-src';
@@ -11,20 +11,20 @@ import 'angular-ui';
 
 declare global {
   interface Window {
-    grafanaBootData: any,
+    grafanaBootData: any;
     System: {
-      import: Function
-    }
+      import: Function;
+    };
   }
 }
 
 export declare class GrafanaApp {
-    registerFunctions: any;
-    ngModuleDependencies: any[];
-    preBootModules: any[];
-    constructor();
-    useModule(module: any): any;
-    init(): void;
+  registerFunctions: any;
+  ngModuleDependencies: any[];
+  preBootModules: any[];
+  constructor();
+  useModule(module: any): any;
+  init(): void;
 }
 declare var _default: GrafanaApp;
 export default _default;

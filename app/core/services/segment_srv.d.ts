@@ -16,7 +16,7 @@ export declare class UiSegmentSrv {
   transformToSegments(
     addTemplateVars: boolean,
     variableTypeFilter?: string
-  ): (results: { text: string, expandable?: boolean }[]) => MetricSegment[];
+  ): (results: Array<{ text: string; expandable?: boolean }>) => MetricSegment[];
   newSelectMetric(): MetricSegment;
   newPlusButton(): MetricSegment;
 }

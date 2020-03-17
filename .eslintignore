@@ -1,0 +1,2 @@
+app/headers/*
+!app/headers/common.d.ts
