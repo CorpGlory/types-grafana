@@ -1,4 +1,4 @@
-# types-grafana
+# types-grafana ![lint status](https://github.com/CorpGlory/types-grafana/workflows/lint/badge.svg)
 
 Unofficial typings for TypeScript for developing plugins for Grafana. 
 
