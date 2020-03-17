@@ -1,5 +1,5 @@
 /// 
-import { PanelCtrl } from 'app/plugins/sdk';
+import { PanelCtrl } from '../../sdk';
 declare class AlertListPanel extends PanelCtrl {
     private $location;
     private backendSrv;

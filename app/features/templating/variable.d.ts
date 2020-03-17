@@ -1,5 +1,5 @@
 /// 
-import { assignModelProperties } from 'app/core/core';
+import { assignModelProperties } from '../../core/core';
 export interface Variable {
     setValue(option: any): any;
     updateOptions(): any;

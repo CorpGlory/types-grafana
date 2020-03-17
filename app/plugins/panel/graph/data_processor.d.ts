@@ -1,5 +1,5 @@
 /// 
-import TimeSeries from 'app/core/time_series2';
+import TimeSeries from '../../../core/time_series2';
 export declare class DataProcessor {
     private panel;
     constructor(panel: any);

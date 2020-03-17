@@ -1,5 +1,5 @@
 /// 
-import { QueryPartDef, QueryPart } from 'app/core/components/query_part/query_part';
+import { QueryPartDef, QueryPart } from '../../core/components/query_part/query_part';
 declare var _default: {
     alertQueryDef: QueryPartDef;
     getStateDisplayModel: (state: any) => {

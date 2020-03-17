@@ -1,6 +1,6 @@
 /// 
 import InfluxQuery from './influx_query';
-import { QueryCtrl } from 'app/plugins/sdk';
+import { QueryCtrl } from '../../sdk';
 export declare class InfluxQueryCtrl extends QueryCtrl {
     private templateSrv;
     private $q;

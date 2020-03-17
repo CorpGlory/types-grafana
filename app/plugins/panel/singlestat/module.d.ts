@@ -1,8 +1,8 @@
 /// 
 import 'jquery.flot';
 import 'jquery.flot.gauge';
-import TimeSeries from 'app/core/time_series2';
-import { MetricsPanelCtrl } from 'app/plugins/sdk';
+import TimeSeries from '../../../core/time_series2';
+import { MetricsPanelCtrl } from '../../sdk';
 declare class SingleStatCtrl extends MetricsPanelCtrl {
     private $location;
     private linkSrv;

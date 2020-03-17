@@ -1,5 +1,5 @@
 /// 
-import { QueryCtrl } from 'app/plugins/sdk';
+import { QueryCtrl } from '../../sdk';
 declare class PrometheusQueryCtrl extends QueryCtrl {
     private templateSrv;
     static templateUrl: string;

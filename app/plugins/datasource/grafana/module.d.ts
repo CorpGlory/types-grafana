@@ -1,6 +1,6 @@
 /// 
 import { GrafanaDatasource } from './datasource';
-import { QueryCtrl } from 'app/plugins/sdk';
+import { QueryCtrl } from '../../sdk';
 declare class GrafanaQueryCtrl extends QueryCtrl {
     static templateUrl: string;
 }
