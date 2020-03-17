@@ -9,5 +9,14 @@
     "plugins"
   ],
   "author": "Alexey Velikiy",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "tslint --project tsconfig.json --config tslint.json app/**/*.d.ts"
+  },
+  "devDependencies": {
+    "dtslint": "^3.3.0",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "problemMatcher": [
+    {
+      "owner": "tslint-stylish",
+      "pattern": [
+        {
+          "regexp": "^([^\\s].+?)(:\\d+:\\d+)?$",
+          "file": 1
+        },
+        {
+          "regexp": "^(ERROR|WARNING|INFO):\\s+(\\d+):(\\d+)\\s+([\\w-]+)\\s+(.*)$",
+          "line": 2,
+          "column": 3,
+          "severity": 1,
+          "message": 5,
+          "code": 4,
+          "loop": true
+        }
+      ]
+    }
+  ]
+}

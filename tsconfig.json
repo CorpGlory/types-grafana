@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "..",
+    "rootDirs": [".."],
+    "typeRoots": [".."],
+    "types": []
+  },
+  "include": ["app/**/*"],
+  "exclude": [
+    "node_modules",
+    "app/headers/es6-shim",
+    "app/headers/mocha",
+    "app/headers/zone"
+  ]
+}
