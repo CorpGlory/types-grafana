@@ -19,10 +19,10 @@ jobs:
         uses: actions/setup-node@v1
 
       - name: Install Dependencies
-        run: yarn install
+        run: npm install
 
       - name: Build check
-        run: yarn run --silent build
+        run: npm run --silent build
 
   lint:
     runs-on: ubuntu-latest
@@ -37,7 +37,7 @@ jobs:
         run: echo "::add-matcher::.github/tslint-stylish.json"
 
       - name: Install Dependencies
-        run: yarn install
+        run: npm install
 
       - name: Lint check
-        run: yarn run --silent lint --format stylish
+        run: npm run --silent lint -- --format stylish
