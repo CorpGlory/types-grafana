@@ -4,7 +4,7 @@ export declare class TemplateSrv {
     builtIns: any;
     grafanaVariables: any;
     index: {
-        [key:string]: QueryVariable;
+        [key: string]: QueryVariable;
     };
     regex: RegExp;
     variables: QueryVariable[];
