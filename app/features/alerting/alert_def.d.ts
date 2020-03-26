@@ -7,30 +7,30 @@ declare var _default: {
         iconClass: string;
         stateClass: string;
     };
-    conditionTypes: {
+    conditionTypes: Array<{
         text: string;
         value: string;
-    }[];
-    evalFunctions: {
+    }>;
+    evalFunctions: Array<{
         text: string;
         value: string;
-    }[];
-    evalOperators: {
+    }>;
+    evalOperators: Array<{
         text: string;
         value: string;
-    }[];
-    noDataModes: {
+    }>;
+    noDataModes: Array<{
         text: string;
         value: string;
-    }[];
-    executionErrorModes: {
+    }>;
+    executionErrorModes: Array<{
         text: string;
         value: string;
-    }[];
-    reducerTypes: {
+    }>;
+    reducerTypes: Array<{
         text: string;
         value: string;
-    }[];
+    }>;
     createReducerPart: (model: any) => QueryPart;
     joinEvalMatches: (matches: any, seperator: string) => any;
     alertStateSortScore: {

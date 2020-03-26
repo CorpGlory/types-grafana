@@ -6,14 +6,14 @@ declare class AlertListPanel extends PanelCtrl {
     private timeSrv;
     private templateSrv;
     static templateUrl: string;
-    showOptions: {
+    showOptions: Array<{
         text: string;
         value: string;
-    }[];
-    sortOrderOptions: {
+    }>;
+    sortOrderOptions: Array<{
         text: string;
         value: number;
-    }[];
+    }>;
     contentHeight: string;
     stateFilter: any;
     currentAlerts: any;

@@ -22,14 +22,14 @@ declare class GraphCtrl extends MetricsPanelCtrl {
     panelDefaults: {
         datasource: any;
         renderer: string;
-        yaxes: {
+        yaxes: Array<{
             label: any;
             show: boolean;
             logBase: number;
             min: any;
             max: any;
             format: string;
-        }[];
+        }>;
         xaxis: {
             show: boolean;
             mode: string;
@@ -62,7 +62,7 @@ declare class GraphCtrl extends MetricsPanelCtrl {
         };
         timeFrom: any;
         timeShift: any;
-        targets: {}[];
+        targets: Array<{}>;
         aliasColors: {};
         seriesOverrides: any[];
         thresholds: any[];

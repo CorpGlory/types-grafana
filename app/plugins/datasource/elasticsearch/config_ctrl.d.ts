@@ -4,17 +4,17 @@ export declare class ElasticConfigCtrl {
     current: any;
     /** @ngInject */
     constructor($scope: any);
-    indexPatternTypes: ({
+    indexPatternTypes: Array<{
         name: string;
         value: any;
     } | {
         name: string;
         value: string;
         example: string;
-    })[];
-    esVersions: {
+    }>;
+    esVersions: Array<{
         name: string;
         value: number;
-    }[];
+    }>;
     indexPatternTypeChanged(): void;
 }
