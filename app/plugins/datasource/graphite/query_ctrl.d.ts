@@ -1,7 +1,7 @@
 /// 
 import './add_graphite_func';
 import './func_editor';
-import { QueryCtrl } from 'app/plugins/sdk';
+import { QueryCtrl } from '../../sdk';
 export declare class GraphiteQueryCtrl extends QueryCtrl {
     private uiSegmentSrv;
     private templateSrv;

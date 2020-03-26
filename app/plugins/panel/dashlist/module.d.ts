@@ -1,5 +1,5 @@
 /// 
-import { PanelCtrl } from 'app/plugins/sdk';
+import { PanelCtrl } from '../../sdk';
 declare class DashListCtrl extends PanelCtrl {
     private backendSrv;
     static templateUrl: string;

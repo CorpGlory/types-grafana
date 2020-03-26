@@ -1,5 +1,5 @@
 /// 
-import { PanelCtrl } from 'app/plugins/sdk';
+import { PanelCtrl } from '../../sdk';
 export declare class TextPanelCtrl extends PanelCtrl {
     private templateSrv;
     private $sce;

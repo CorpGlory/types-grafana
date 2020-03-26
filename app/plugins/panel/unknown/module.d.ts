@@ -1,5 +1,5 @@
 /// 
-import { PanelCtrl } from 'app/plugins/sdk';
+import { PanelCtrl } from '../../sdk';
 export declare class UnknownPanelCtrl extends PanelCtrl {
     static templateUrl: string;
     /** @ngInject */

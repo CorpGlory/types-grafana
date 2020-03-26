@@ -1,7 +1,7 @@
 /// 
 import './bucket_agg';
 import './metric_agg';
-import { QueryCtrl } from 'app/plugins/sdk';
+import { QueryCtrl } from '../../sdk';
 export declare class ElasticQueryCtrl extends QueryCtrl {
     private $rootScope;
     private $timeout;

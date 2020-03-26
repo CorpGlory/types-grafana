@@ -3,7 +3,7 @@ import './graph';
 import './legend';
 import './series_overrides_ctrl';
 import './thresholds_form';
-import { MetricsPanelCtrl } from 'app/plugins/sdk';
+import { MetricsPanelCtrl } from '../../sdk';
 import { DataProcessor } from './data_processor';
 declare class GraphCtrl extends MetricsPanelCtrl {
     private annotationsSrv;

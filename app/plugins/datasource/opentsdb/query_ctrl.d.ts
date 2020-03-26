@@ -1,5 +1,5 @@
 /// 
-import { QueryCtrl } from 'app/plugins/sdk';
+import { QueryCtrl } from '../../sdk';
 export declare class OpenTsQueryCtrl extends QueryCtrl {
     static templateUrl: string;
     aggregators: any;

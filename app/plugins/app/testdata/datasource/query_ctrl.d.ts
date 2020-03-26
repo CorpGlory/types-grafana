@@ -1,5 +1,5 @@
 /// 
-import { QueryCtrl } from 'app/plugins/sdk';
+import { QueryCtrl } from '../../../sdk';
 export declare class TestDataQueryCtrl extends QueryCtrl {
     private backendSrv;
     static templateUrl: string;

@@ -1,5 +1,5 @@
 /// 
-import { MetricsPanelCtrl } from 'app/plugins/sdk';
+import { MetricsPanelCtrl } from '../../sdk';
 declare class TablePanelCtrl extends MetricsPanelCtrl {
     private annotationsSrv;
     private $sanitize;
