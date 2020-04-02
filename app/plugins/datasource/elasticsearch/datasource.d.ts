@@ -1,3 +1,3 @@
 declare var ElasticDatasource: any;
-export {ElasticDatasource};
+export { ElasticDatasource };
 
