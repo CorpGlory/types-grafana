@@ -2,6 +2,7 @@
 import { PanelCtrl } from './panel_ctrl';
 declare class MetricsPanelCtrl extends PanelCtrl {
     loading: boolean;
+    scope: any;
     datasource: any;
     datasourceName: any;
     $q: any;
