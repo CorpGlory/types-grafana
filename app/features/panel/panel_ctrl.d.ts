@@ -35,10 +35,10 @@ export declare class PanelCtrl {
     changeTab(newIndex: any): void;
     addEditorTab(title: any, directiveFn: any, index?: any): void;
     getMenu(): any[];
-    getExtendedMenu(): {
+    getExtendedMenu(): Array<{
         text: string;
         click: string;
-    }[];
+    }>;
     otherPanelInFullscreenMode(): boolean;
     calculatePanelHeight(): void;
     render(payload?: any): void;

@@ -4,10 +4,10 @@ export declare class AlertListCtrl {
     private $location;
     private $scope;
     alerts: any;
-    stateFilters: {
+    stateFilters: Array<{
         text: string;
         value: string;
-    }[];
+    }>;
     filters: {
         state: string;
     };

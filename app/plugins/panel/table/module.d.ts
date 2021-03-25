@@ -8,11 +8,11 @@ declare class TablePanelCtrl extends MetricsPanelCtrl {
     dataRaw: any;
     table: any;
     panelDefaults: {
-        targets: {}[];
+        targets: Array<{}>;
         transform: string;
         pageSize: any;
         showHeader: boolean;
-        styles: ({
+        styles: Array<{
             type: string;
             pattern: string;
             dateFormat: string;
@@ -24,7 +24,7 @@ declare class TablePanelCtrl extends MetricsPanelCtrl {
             colorMode: any;
             pattern: string;
             thresholds: any[];
-        })[];
+        }>;
         columns: any[];
         scroll: boolean;
         fontSize: string;

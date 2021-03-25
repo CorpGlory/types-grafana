@@ -10,9 +10,9 @@ export declare class DataProcessor {
     customHandler(dataItem: any): any[];
     validateXAxisSeriesValue(): void;
     getDataFieldNames(dataList: any, onlyNumbers: any): any[];
-    getXAxisValueOptions(options: any): {
+    getXAxisValueOptions(options: any): Array<{
         text: string;
         value: string;
-    }[];
+    }>;
     pluckDeep(obj: any, property: string): any;
 }

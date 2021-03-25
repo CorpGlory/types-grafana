@@ -20,26 +20,26 @@ declare class SingleStatCtrl extends MetricsPanelCtrl {
         datasource: any;
         maxDataPoints: number;
         interval: any;
-        targets: {}[];
+        targets: Array<{}>;
         cacheTimeout: any;
         format: string;
         prefix: string;
         postfix: string;
         nullText: any;
-        valueMaps: {
+        valueMaps: Array<{
             value: string;
             op: string;
             text: string;
-        }[];
-        mappingTypes: {
+        }>;
+        mappingTypes: Array<{
             name: string;
             value: number;
-        }[];
-        rangeMaps: {
+        }>;
+        rangeMaps: Array<{
             from: string;
             to: string;
             text: string;
-        }[];
+        }>;
         mappingType: number;
         nullPointMode: string;
         valueName: string;

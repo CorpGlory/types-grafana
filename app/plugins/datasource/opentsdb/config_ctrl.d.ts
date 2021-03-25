@@ -4,12 +4,12 @@ export declare class OpenTsConfigCtrl {
     current: any;
     /** @ngInject */
     constructor($scope: any);
-    tsdbVersions: {
+    tsdbVersions: Array<{
         name: string;
         value: number;
-    }[];
-    tsdbResolutions: {
+    }>;
+    tsdbResolutions: Array<{
         name: string;
         value: number;
-    }[];
+    }>;
 }
