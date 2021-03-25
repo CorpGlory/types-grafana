@@ -52,4 +52,5 @@ export declare class PanelCtrl {
     getInfoMode(): "" | "error" | "info" | "links";
     getInfoContent(options: any): string;
     openInspector(): void;
+    onPluginTypeChange(plugin: any): void;
 }
